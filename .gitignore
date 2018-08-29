@@ -1,0 +1,21 @@
+.terraform*
+tfplan
+.DS_Store
+.idea/
+.terraform/
+terraform.tfstate.d/
+environment/test/proftp/terraform.tfstate.d/
+*.swp
+*.save
+*.SAVE
+*.old
+*.vscode
+
+# Compiled files
+*.tfstate
+*.tfstate.backup
+
+
+# Sensitive vars
+vault.auto.tfvars
+*.vscode/
